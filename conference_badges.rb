@@ -20,7 +20,7 @@ def assign_rooms(attendees)
   room_assignments
 end
 
-def printer()
+def printer
   batch_badge_creator()
   batch_badge_creator.each_line do |label|
     puts label.chomp
